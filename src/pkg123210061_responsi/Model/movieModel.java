@@ -128,7 +128,7 @@ public class movieModel implements hitungan {
                 + "`alur`=" + alur + "," +
                 "`penokohan`=" + penokohan + "," +
                 "`akting`=" + akting + "," +
-                "`nilai`=" + nilai + "," +
+                "`nilai`=" + nilai +
                 "WHERE `judul` = '" + judul + "'";
         statement = connection.createStatement();
         statement.executeUpdate(query);
